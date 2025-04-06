@@ -125,3 +125,21 @@ img{
     display: flex;
     cursor: pointer
 }
+.songBar{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songBar img{
+   height: 10px;
+   display: flex;
+   margin: 15px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
